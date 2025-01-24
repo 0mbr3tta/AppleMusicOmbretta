@@ -17,9 +17,26 @@
   background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23dc3545' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.5 12a.5.5 0 010-1h13a.5.5 0 010 1h-13zm0-5a.5.5 0 010-1h13a.5.5 0 010 1h-13zm0-5a.5.5 0 010-1h13a.5.5 0 010 1h-13z'/%3E%3C/svg%3E");
 }
 
+.Sfondocards {
+  background-color: #1F1F1F;
+  color: white;
+  border: none;
+}
+.CardAPI{
+  background-color: #1F1F1F;
+  color: white;
+  border: none;
+}
+.immaginiApi{
+  max-width: 300px;
+  max-height: 300px
+}
 .Sfondocard {
   background-color: #1F1F1F;
-  color: white
+  color: white;
+  border: none;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 /*footer css*/ 
