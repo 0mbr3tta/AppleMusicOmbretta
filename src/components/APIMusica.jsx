@@ -30,7 +30,7 @@ function APIMusica() {
                 />
              <Card.Body>
   <Card.Title className="fs-6">{album.album.title}</Card.Title> 
-  <Card.Text className="fs-7 text-muted">Artista: {album.artist.name}</Card.Text> 
+  <Card.Text className="fs-7">Artista: {album.artist.name}</Card.Text> 
 </Card.Body>
 
               </Card>
