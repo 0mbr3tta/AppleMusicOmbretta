@@ -18,7 +18,7 @@ function APIMusica() {
   return (
     <Container className="mt-2 mb-2  ">
       <h3 className="mt-5">Nuove uscite</h3>
-      <Row xs={1} sm={2} md={3} className="g-4 CardAPI">
+      <Row xs={1} sm={6} md={6} className="g-4 CardAPI">
         {albums.length > 0 ? (
           albums.map((album, idx) => (
             <Col key={idx}>
