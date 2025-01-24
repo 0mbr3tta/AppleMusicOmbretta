@@ -16,13 +16,13 @@ function APIMusica() {
   }, []);
 
   return (
-    <Container className="mt-2 mb-2 ">
+    <Container className="mt-2 mb-2  ">
       <h3 className="mt-5">Nuove uscite</h3>
-      <Row xs={1} sm={2} md={3} className="g-4">
+      <Row xs={1} sm={2} md={3} className="g-4 CardAPI">
         {albums.length > 0 ? (
           albums.map((album, idx) => (
             <Col key={idx}>
-              <Card>
+              <Card className='CardAPI'>
                 <Card.Img className='immaginiApi'
                   variant="top"
                   src={album.album.cover_medium}
