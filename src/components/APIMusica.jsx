@@ -18,7 +18,7 @@ function APIMusica() {
   return (
     <Container className="mt-2 mb-2  ">
       <h3 className="mt-5">Nuove uscite</h3>
-      <Row xs={1} sm={6} md={6} className="g-4 CardAPI">
+      <Row xs={5} sm={5} md={5} className="g-4 CardAPI">
         {albums.length > 0 ? (
           albums.map((album, idx) => (
             <Col key={idx}>
@@ -28,10 +28,11 @@ function APIMusica() {
                   src={album.album.cover_medium}
                   alt={album.album.title}
                 />
-                <Card.Body>
-                  <Card.Title>{album.album.title}</Card.Title>
-                  <Card.Text>Artista: {album.artist.name}</Card.Text>
-                </Card.Body>
+             <Card.Body>
+  <Card.Title className="fs-6">{album.album.title}</Card.Title> 
+  <Card.Text className="fs-7 text-muted">Artista: {album.artist.name}</Card.Text> 
+</Card.Body>
+
               </Card>
             </Col>
           ))
